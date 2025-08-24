@@ -17,7 +17,7 @@ This app suggests movies similar to the one you select, based on features like g
 ## 🛠️ Tech Stack
 - **Frontend/UI** → Streamlit  
 - **Backend/Logic** → Python (pandas, numpy, scikit-learn)  
-- **Dataset** → Movies Metadata (Kaggle / TMDB dataset)  
+- **Dataset** → Movies Metadata (Kaggle / TMDB dataset) : https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata 
 
 ---
 
@@ -53,5 +53,21 @@ This app suggests movies similar to the one you select, based on features like g
 4. Run the Streamlit App
    ```bash
    streamlit run app.py
+
+📂 Project Structure:
+
+```bash
+Movie_Recommender_System/
+│
+├── README.md                      # Project description, usage, setup instructions
+├── p1.PNG                         # Screenshot 1
+├── p2.PNG                         # Screenshot 2
+│
+└── movie rs new/                  # Main project folder
+    ├── app.py                     # Streamlit/Django/Flask main app file
+    ├── movie-recommender-system-new.ipynb   # Jupyter Notebook (exploration, EDA, model building)
+    ├── movie_dict.pkl             # Pickle file containing movie dictionary (title, id, etc.)
+    ├── movies.pkl                 # Pickle file containing movie feature vectors (for similarity search)
+    └── requirements.txt           # Python dependencies
 
 
