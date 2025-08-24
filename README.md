@@ -23,7 +23,11 @@ This app suggests movies similar to the one you select, based on features like g
 
 ## 📸 Screenshots
 
+### Recommendation Results  
+![Recommendation Results](p1.PNG)  
 
+### Recommendation Results  
+![Recommendation Results](p2.PNG)  
 
 ## 🚀 Installation & Setup
 
@@ -31,3 +35,23 @@ This app suggests movies similar to the one you select, based on features like g
    ```bash
    git clone https://github.com/your-username/Movie-Recommender-System.git
    cd Movie-Recommender-System
+
+2. Create Virtual Environment (recommended)
+    ```bash
+    # For Windows
+    python -m venv .venv
+    .venv\Scripts\activate
+
+   # For Mac/Linux
+   python -m venv .venv
+   source .venv/bin/activate
+
+3. Install Dependencies
+   ```bash
+   pip install -r requirements.txt
+
+4. Run the Streamlit App
+   ```bash
+   streamlit run app.py
+
+
